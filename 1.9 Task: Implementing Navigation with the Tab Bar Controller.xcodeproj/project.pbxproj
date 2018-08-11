@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38903C932071B3DF0098542C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38903C922071B3DF0098542C /* AppDelegate.swift */; };
+		38903C982071B3DF0098542C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38903C962071B3DF0098542C /* Main.storyboard */; };
+		38903C9A2071B3E00098542C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38903C992071B3E00098542C /* Assets.xcassets */; };
+		38903C9D2071B3E00098542C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38903C9B2071B3E00098542C /* LaunchScreen.storyboard */; };
+		38903CAC2071B8E90098542C /* license.html in Resources */ = {isa = PBXBuildFile; fileRef = 38903CA62071B8E80098542C /* license.html */; };
+		38903CAD2071B8E90098542C /* backup.txt in Resources */ = {isa = PBXBuildFile; fileRef = 38903CA72071B8E80098542C /* backup.txt */; };
+		38903CAE2071B8E90098542C /* 001-football.png in Resources */ = {isa = PBXBuildFile; fileRef = 38903CA92071B8E80098542C /* 001-football.png */; };
+		38903CAF2071B8E90098542C /* 002-tool.png in Resources */ = {isa = PBXBuildFile; fileRef = 38903CAA2071B8E80098542C /* 002-tool.png */; };
+		38903CB02071B8E90098542C /* 003-ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 38903CAB2071B8E80098542C /* 003-ball.png */; };
+		38903CB42071BB550098542C /* Home-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 38903CB22071BB550098542C /* Home-25.png */; };
+		38903CB52071BB550098542C /* Calendar-25.png in Resources */ = {isa = PBXBuildFile; fileRef = 38903CB32071BB550098542C /* Calendar-25.png */; };
+		38903CB72071BCE40098542C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38903CB62071BCE40098542C /* HomeViewController.swift */; };
+		38903CB92071BCFC0098542C /* FootballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38903CB82071BCFC0098542C /* FootballViewController.swift */; };
+		38903CBB2071BD1D0098542C /* BasketballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38903CBA2071BD1D0098542C /* BasketballViewController.swift */; };
+		38903CBD2071BD2A0098542C /* BaseballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38903CBC2071BD2A0098542C /* BaseballViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38903C8F2071B3DF0098542C /* 1.9 Task: Implementing Navigation with the Tab Bar Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1.9 Task: Implementing Navigation with the Tab Bar Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38903C922071B3DF0098542C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38903C972071B3DF0098542C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38903C992071B3E00098542C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38903C9C2071B3E00098542C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38903C9E2071B3E00098542C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38903CA62071B8E80098542C /* license.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = license.html; sourceTree = "<group>"; };
+		38903CA72071B8E80098542C /* backup.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = backup.txt; sourceTree = "<group>"; };
+		38903CA92071B8E80098542C /* 001-football.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001-football.png"; sourceTree = "<group>"; };
+		38903CAA2071B8E80098542C /* 002-tool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-tool.png"; sourceTree = "<group>"; };
+		38903CAB2071B8E80098542C /* 003-ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-ball.png"; sourceTree = "<group>"; };
+		38903CB22071BB550098542C /* Home-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-25.png"; sourceTree = "<group>"; };
+		38903CB32071BB550098542C /* Calendar-25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar-25.png"; sourceTree = "<group>"; };
+		38903CB62071BCE40098542C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		38903CB82071BCFC0098542C /* FootballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballViewController.swift; sourceTree = "<group>"; };
+		38903CBA2071BD1D0098542C /* BasketballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballViewController.swift; sourceTree = "<group>"; };
+		38903CBC2071BD2A0098542C /* BaseballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38903C8C2071B3DF0098542C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38903C862071B3DF0098542C = {
+			isa = PBXGroup;
+			children = (
+				38903C912071B3DF0098542C /* 1.9 Task: Implementing Navigation with the Tab Bar Controller */,
+				38903C902071B3DF0098542C /* Products */,
+				38903CA42071B8E80098542C /* my-icons-collection */,
+				38903CB12071BB550098542C /* icons */,
+			);
+			sourceTree = "<group>";
+		};
+		38903C902071B3DF0098542C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38903C8F2071B3DF0098542C /* 1.9 Task: Implementing Navigation with the Tab Bar Controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38903C912071B3DF0098542C /* 1.9 Task: Implementing Navigation with the Tab Bar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38903C922071B3DF0098542C /* AppDelegate.swift */,
+				38903CB62071BCE40098542C /* HomeViewController.swift */,
+				38903CB82071BCFC0098542C /* FootballViewController.swift */,
+				38903CBA2071BD1D0098542C /* BasketballViewController.swift */,
+				38903CBC2071BD2A0098542C /* BaseballViewController.swift */,
+				38903C962071B3DF0098542C /* Main.storyboard */,
+				38903C992071B3E00098542C /* Assets.xcassets */,
+				38903C9B2071B3E00098542C /* LaunchScreen.storyboard */,
+				38903C9E2071B3E00098542C /* Info.plist */,
+			);
+			path = "1.9 Task: Implementing Navigation with the Tab Bar Controller";
+			sourceTree = "<group>";
+		};
+		38903CA42071B8E80098542C /* my-icons-collection */ = {
+			isa = PBXGroup;
+			children = (
+				38903CA52071B8E80098542C /* license */,
+				38903CA72071B8E80098542C /* backup.txt */,
+				38903CA82071B8E80098542C /* png */,
+			);
+			path = "my-icons-collection";
+			sourceTree = "<group>";
+		};
+		38903CA52071B8E80098542C /* license */ = {
+			isa = PBXGroup;
+			children = (
+				38903CA62071B8E80098542C /* license.html */,
+			);
+			path = license;
+			sourceTree = "<group>";
+		};
+		38903CA82071B8E80098542C /* png */ = {
+			isa = PBXGroup;
+			children = (
+				38903CA92071B8E80098542C /* 001-football.png */,
+				38903CAA2071B8E80098542C /* 002-tool.png */,
+				38903CAB2071B8E80098542C /* 003-ball.png */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+		38903CB12071BB550098542C /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				38903CB22071BB550098542C /* Home-25.png */,
+				38903CB32071BB550098542C /* Calendar-25.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38903C8E2071B3DF0098542C /* 1.9 Task: Implementing Navigation with the Tab Bar Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38903CA12071B3E00098542C /* Build configuration list for PBXNativeTarget "1.9 Task: Implementing Navigation with the Tab Bar Controller" */;
+			buildPhases = (
+				38903C8B2071B3DF0098542C /* Sources */,
+				38903C8C2071B3DF0098542C /* Frameworks */,
+				38903C8D2071B3DF0098542C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.9 Task: Implementing Navigation with the Tab Bar Controller";
+			productName = "1.9 Task: Implementing Navigation with the Tab Bar Controller";
+			productReference = 38903C8F2071B3DF0098542C /* 1.9 Task: Implementing Navigation with the Tab Bar Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38903C872071B3DF0098542C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Eric Andersen";
+				TargetAttributes = {
+					38903C8E2071B3DF0098542C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 38903C8A2071B3DF0098542C /* Build configuration list for PBXProject "1.9 Task: Implementing Navigation with the Tab Bar Controller" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38903C862071B3DF0098542C;
+			productRefGroup = 38903C902071B3DF0098542C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38903C8E2071B3DF0098542C /* 1.9 Task: Implementing Navigation with the Tab Bar Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38903C8D2071B3DF0098542C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38903C9D2071B3E00098542C /* LaunchScreen.storyboard in Resources */,
+				38903C9A2071B3E00098542C /* Assets.xcassets in Resources */,
+				38903CB02071B8E90098542C /* 003-ball.png in Resources */,
+				38903CB42071BB550098542C /* Home-25.png in Resources */,
+				38903CAF2071B8E90098542C /* 002-tool.png in Resources */,
+				38903CAE2071B8E90098542C /* 001-football.png in Resources */,
+				38903CAC2071B8E90098542C /* license.html in Resources */,
+				38903C982071B3DF0098542C /* Main.storyboard in Resources */,
+				38903CB52071BB550098542C /* Calendar-25.png in Resources */,
+				38903CAD2071B8E90098542C /* backup.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38903C8B2071B3DF0098542C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38903C932071B3DF0098542C /* AppDelegate.swift in Sources */,
+				38903CBB2071BD1D0098542C /* BasketballViewController.swift in Sources */,
+				38903CB72071BCE40098542C /* HomeViewController.swift in Sources */,
+				38903CBD2071BD2A0098542C /* BaseballViewController.swift in Sources */,
+				38903CB92071BCFC0098542C /* FootballViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38903C962071B3DF0098542C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38903C972071B3DF0098542C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38903C9B2071B3E00098542C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38903C9C2071B3E00098542C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38903C9F2071B3E00098542C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38903CA02071B3E00098542C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38903CA22071B3E00098542C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2V96BB45E;
+				INFOPLIST_FILE = "1.9 Task: Implementing Navigation with the Tab Bar Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EricAndersen.--9-Task--Implementing-Navigation-with-the-Tab-Bar-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38903CA32071B3E00098542C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2V96BB45E;
+				INFOPLIST_FILE = "1.9 Task: Implementing Navigation with the Tab Bar Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EricAndersen.--9-Task--Implementing-Navigation-with-the-Tab-Bar-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38903C8A2071B3DF0098542C /* Build configuration list for PBXProject "1.9 Task: Implementing Navigation with the Tab Bar Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38903C9F2071B3E00098542C /* Debug */,
+				38903CA02071B3E00098542C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38903CA12071B3E00098542C /* Build configuration list for PBXNativeTarget "1.9 Task: Implementing Navigation with the Tab Bar Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38903CA22071B3E00098542C /* Debug */,
+				38903CA32071B3E00098542C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38903C872071B3DF0098542C /* Project object */;
+}
